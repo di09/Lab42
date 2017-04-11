@@ -9,6 +9,11 @@ public class Main
 
 
 
+
+		product.changePrice(4.5);
+		product.printProduct();
+
+
 	}
 }
 
@@ -35,6 +40,11 @@ name,price,amount);
 
 
 
+
+public void changePrice(double newprice) 
+{
+	price=newprice;
+}
 
 
 
