@@ -6,7 +6,8 @@ public class Main
 		System.out.println("Product value is " + product.countValue());
 		product.printProduct();
 
-
+		product.changeBalance(150);
+		product.printProduct();
 
 
 	}
@@ -29,7 +30,10 @@ System.out.printf("Product %s, price %4.1f and balance %d pcs",
 name,price,amount);
 }
 
-
+public void changeBalance(int newvalue) //amount
+{
+	amount=newvalue;
+}
 
 
 
